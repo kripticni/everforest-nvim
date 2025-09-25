@@ -5,7 +5,7 @@ to fit my own liking, made to look very
 foresty with colours you would often find
 in nature.
 
-![./assets/showcase.png](everforest colorscheme medium dark)
+![Everforest Colorscheme Medium Dark](./assets/showcase.png)
 Screenshot from my [system](https://github.com/kripticni/gentoo-system).
 
 ## Features
@@ -15,6 +15,13 @@ Screenshot from my [system](https://github.com/kripticni/gentoo-system).
 - **Lualine** theme
 
 ## Installation
+
+Using the native [pack](https://neovim.io/doc/user/pack.html) in neovim 0.12:
+
+```lua
+vim.pack.add({{src = "https://github.com/kripticni/everforest-nvim"}});
+vim.cmd("colorscheme everforest")
+```
 
 Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
